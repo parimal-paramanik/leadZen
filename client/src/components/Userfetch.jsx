@@ -95,7 +95,7 @@ const Userfetch = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const request = await fetch(`http://localhost:8080/address/users?page=${currentPage}`);
+        const request = await fetch(`https://leadzen-v4p0.onrender.com/address/users?page=${currentPage}`);
         const response = await request.json();
         if (response) {
           setUsers(response.users);
