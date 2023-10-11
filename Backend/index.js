@@ -1,7 +1,10 @@
 const express= require("express")
 const app = express()
-const Port= 4000
+const Port= 8080
 const {Router} =require("./Routes/routes")
+const cors= require("cors")
+
+app.use(cors())
 
 app.get("/",(req,res)=>{
      res.send("everything is fine")

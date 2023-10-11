@@ -3,5 +3,5 @@ const { getAllAddress } = require("../Controller/controller")
 
 const Router= express.Router()
 
-Router.get("/alladdress",getAllAddress)
+Router.get("/users",getAllAddress)
 module.exports = {Router}
