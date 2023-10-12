@@ -3,7 +3,7 @@
 Leadzen is a web application that fetches user data from a Node.js backend API and displays it in the browser using React as the frontend. The project provides pagination functionality and allows users to search for specific users.
 
 
-## Features
+## Features :
 
 - Fetches user data from a Node.js backend API.
 - Displays user information in a responsive user interface built with React.
